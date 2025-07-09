@@ -1,13 +1,14 @@
 package router
 
 import (
-	"gsam/controller"
-	repo "gsam/domain/repository"
-	userSvc "gsam/domain/service/user"
-	"gsam/handler"
 	"log"
 	"net/http"
 	"strconv"
+
+	"github.com/qww83728/gsam.git/controller"
+	repo "github.com/qww83728/gsam.git/domain/repository"
+	userSvc "github.com/qww83728/gsam.git/domain/service/user"
+	"github.com/qww83728/gsam.git/handler"
 
 	"github.com/gin-gonic/gin"
 	"github.com/jmoiron/sqlx"

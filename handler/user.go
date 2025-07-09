@@ -2,9 +2,10 @@ package handler
 
 import (
 	"fmt"
-	"gsam/controller"
-	"gsam/domain/entity"
 	"net/http"
+
+	"github.com/qww83728/gsam.git/controller"
+	"github.com/qww83728/gsam.git/domain/entity"
 
 	"github.com/gin-gonic/gin"
 )

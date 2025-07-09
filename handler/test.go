@@ -1,8 +1,9 @@
 package handler
 
 import (
-	"gsam/controller"
 	"net/http"
+
+	"github.com/qww83728/gsam.git/controller"
 
 	"github.com/gin-gonic/gin"
 )

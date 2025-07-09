@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	router "gsam/router"
 	"net/http"
 	"strconv"
+
+	router "github.com/qww83728/gsam.git/router"
 
 	"github.com/gin-gonic/gin"
 )

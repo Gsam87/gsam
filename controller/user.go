@@ -8,10 +8,10 @@ import (
 
 	"github.com/samber/lo"
 
-	"gsam/domain/entity"
-	repo_entity "gsam/domain/entity/repo"
-	repo "gsam/domain/repository"
-	userSvc "gsam/domain/service/user"
+	"github.com/qww83728/gsam.git/domain/entity"
+	repo_entity "github.com/qww83728/gsam.git/domain/entity/repo"
+	repo "github.com/qww83728/gsam.git/domain/repository"
+	userSvc "github.com/qww83728/gsam.git/domain/service/user"
 )
 
 type UserController interface {

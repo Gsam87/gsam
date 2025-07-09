@@ -4,7 +4,7 @@ import (
 	"github.com/jmoiron/sqlx"
 	_ "modernc.org/sqlite"
 
-	repo_entity "gsam/domain/entity/repo"
+	repo_entity "github.com/qww83728/gsam.git/domain/entity/repo"
 )
 
 type VideoRepo interface {
